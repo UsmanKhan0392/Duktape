@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.936619452">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.936619452" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="0.936619452" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.936619452." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.957782855" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.957782855.1870418474" name=""/>
+							<builder arguments="-j" command="make" id="org.eclipse.cdt.build.core.settings.default.builder.1415080330" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.445325914" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.302788810" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1008027188" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/eclipse-extras}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-at-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-cellular-base}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-ppp-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/nsdl-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/mbed-client-mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Update}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Services-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Platform-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/objects}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/configsetup}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface/u-Blox}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DbgMCU}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevI2C}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevSPI}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/drivers}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events/equeue}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/bd}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat/ChaN}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/importer}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/generic_modem_driver}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/utils}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/storage}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal/storage_abstraction}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device/TOOLCHAIN_ARM_STD}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/cs_nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/IPv6_fcf_lib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libBits}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libip6string}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libList}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace/scripts}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nsdynmemLIB}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nvmHelper}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv6}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/priv}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/prot}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/nanostack-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs/img}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/}&quot;"/>
+								    
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1670933615" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									
+                                    <listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TRANSACTION_QUEUE_SIZE_SPI=2"/>
+                                    
+                                    <listOptionValue builtIn="false" value="RTC_LSI=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CORTEX_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="HSE_VALUE=12000000"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+                                    
+                                    <listOptionValue builtIn="false" value="GNSSBAUD=9600"/>
+                                    
+                                    <listOptionValue builtIn="false" value="MBEDTLS_CONFIG_HW_SUPPORT"/>
+                                    
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.775336684" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.162714252" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1406944528" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/eclipse-extras}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-at-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-cellular-base}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-ppp-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/nsdl-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/mbed-client-mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Update}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Services-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Platform-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/objects}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/configsetup}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface/u-Blox}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DbgMCU}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevI2C}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevSPI}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/drivers}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events/equeue}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/bd}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat/ChaN}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/importer}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/generic_modem_driver}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/utils}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/storage}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal/storage_abstraction}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device/TOOLCHAIN_ARM_STD}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/cs_nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/IPv6_fcf_lib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libBits}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libip6string}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libList}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace/scripts}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nsdynmemLIB}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nvmHelper}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv6}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/priv}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/prot}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/nanostack-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs/img}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/}&quot;"/>
+								    
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.496389156" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									
+                                    <listOptionValue builtIn="false" value="FEATURE_NANOSTACK=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437xx"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UBLOX_C030_R410M"/>
+                                    
+                                    <listOptionValue builtIn="false" value="FEATURE_LWIP=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UBLOX_C030"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="MBEDTLS_CONFIG_HW_SUPPORT"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2C_ASYNCH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_DEBUG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_TRNG=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPI_ASYNCH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437xG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1527855318.52"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__MBED__=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_CORTEX"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TRANSACTION_QUEUE_SIZE_SPI=2"/>
+                                    
+                                    <listOptionValue builtIn="false" value="RTC_LSI=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CORTEX_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_FAMILY_STM32"/>
+                                    
+                                    <listOptionValue builtIn="false" value="FEATURE_COMMON_PAL=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="HSE_VALUE=12000000"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="GNSSBAUD=9600"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_ARM_STD"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437VG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_FLASH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_ARM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SERIAL_FC=1"/>
+                                    
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.869095164" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.460204758" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.867151072" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/eclipse-extras}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-at-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-cellular-base}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/backhaul/UBLOX_C030_R410M/ublox-ppp-cellular-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/nsdl-c}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-c/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/mbed-client-classic}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-classic/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/mbed-client-mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/mbed-client-mbed-tls/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Modules/Update}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/PAL-Impl/Services-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Platform-API}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/Networking}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/pal/Source/Port/Reference-Impl/mbedOS/RTOS}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/mbed-client/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/cloudprotocol/LwM2M-over-CoAP/objects}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/configsetup}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/interface/u-Blox}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DbgMCU}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevI2C}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_COMMON/DevSPI}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/mbed/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Common}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/hts221}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/embedded-fw/sensor/HTS221/third_party_comp/IKS01A1/X_NUCLEO_IKS01A1/Components/Interfaces}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/cmsis/TARGET_CORTEX_M/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/drivers}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/events/equeue}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/bd}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/filesystem/fat/ChaN}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/greentea-client}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/greentea-client/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/unity/unity}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/frameworks/utest/utest}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/importer}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/inc/mbedtls}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/inc}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/platform/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/mbedtls/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/generic_modem_driver}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/netsocket/cellular/utils}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/storage}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/hal/storage_abstraction}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/rtos/TARGET_CORTEX/rtx5/TARGET_RTOS_M4_M7/TOOLCHAIN_ARM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/device/TOOLCHAIN_ARM_STD}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F437xG/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/mbed-client-randlib/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-client-randlib/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/mbed-coap}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-coap/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/mbed-trace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/mbed-trace/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/cs_nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-hal-mbed-cmsis-rtos/nvm}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/mbed-client-libservice/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/IPv6_fcf_lib}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libBits}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libip6string}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libList}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/libTrace/scripts}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nsdynmemLIB}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/nanostack-libservice/source/nvmHelper}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/nanostack-event-loop/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_COMMON_PAL/sal-stack-nanostack-eventloop/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/core/ipv6}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/priv}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/lwip/prot}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/include/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip/src/netif/ppp/polarssl}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-eth/arch/TARGET_STM/TARGET_STM32F4/TARGET_UBLOX_C030}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/FEATURE_LWIP/lwip-interface/lwip-sys/arch}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/coap-service}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/coap-service/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/mbed-mesh-api}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/mbed-mesh-api/source/include}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/nanostack-interface}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/docs/img}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/doxygen}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/sal-stack-nanostack/nanostack/platform}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/R410M_AT_Lwm2m/mbed-os/features/nanostack/FEATURE_NANOSTACK/targets}&quot;"/>
+								    
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/}&quot;"/>
+								    
+								</option>
+								<option id="org.eclipse.cdt.build.core.settings.holder.symbols.1395532696" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									
+                                    <listOptionValue builtIn="false" value="FEATURE_NANOSTACK=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437xx"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UBLOX_C030_R410M"/>
+                                    
+                                    <listOptionValue builtIn="false" value="FEATURE_LWIP=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UBLOX_C030"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2CSLAVE=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__FPU_PRESENT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_RTOS_M4_M7"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_RTC=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_object"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CMSIS_RTOS"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_ANALOGOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="MBEDTLS_CONFIG_HW_SUPPORT"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_FF_ARDUINO"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2C_ASYNCH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="ARM_MATH_CM4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_DEBUG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_LIKE_CORTEX_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_TRNG=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_UVISOR_UNSUPPORTED"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPI_ASYNCH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PWMOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437xG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="MBED_BUILD_TIMESTAMP=1527855318.52"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__MBED__=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_CORTEX"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_I2C=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TRANSACTION_QUEUE_SIZE_SPI=2"/>
+                                    
+                                    <listOptionValue builtIn="false" value="RTC_LSI=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__CORTEX_M4"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_STDIO_MESSAGES=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_FAMILY_STM32"/>
+                                    
+                                    <listOptionValue builtIn="false" value="FEATURE_COMMON_PAL=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="HSE_VALUE=12000000"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SERIAL=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_PORTINOUT=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="GNSSBAUD=9600"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_LIKE_MBED"/>
+                                    
+                                    <listOptionValue builtIn="false" value="__MBED_CMSIS_RTOS_CM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SLEEP=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPI=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_INTERRUPTIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_ARM_STD"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SPISLAVE=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_ANALOGIN=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_STM32F437VG"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_FLASH=1"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TOOLCHAIN_ARM"/>
+                                    
+                                    <listOptionValue builtIn="false" value="TARGET_CORTEX_M"/>
+                                    
+                                    <listOptionValue builtIn="false" value="DEVICE_SERIAL_FC=1"/>
+                                    
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1704200665" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="R410M_AT_Lwm2m.null.1423711414" name="R410M_AT_Lwm2m"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.936619452">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/mbed-os-example-blinky"/>
+		</configuration>
+	</storageModule>
+</cproject>

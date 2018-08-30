@@ -1,0 +1,16 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.features_add": ["NANOSTACK","COMMON_PAL"],
+            "platform.stdio-baud-rate": 9600,
+            "platform.stdio-convert-newlines": true,
+            "mbed-trace.enable": 0
+        },
+        
+        "UBLOX_C030": {
+        "target.features_add": ["LWIP"],
+        "lwip.ppp-enabled": true,
+        "lwip.ethernet-enabled": false
+        }
+    }
+}
